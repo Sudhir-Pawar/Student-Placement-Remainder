@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/fullNTitle"
+            android:hint="@string/notification_title"
+            android:gravity="fill"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:background="@drawable/sample"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+        <TextView
+            android:id="@+id/fullNDescrpt"
+            android:hint="@string/notification_description"
+            android:gravity="fill"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/sample"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/fullNTime"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="50dp"
+            android:hint="@string/time"
+            android:background="@drawable/sample"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:gravity="fill"/>
+        <TextView
+            android:id="@+id/fullNDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/date"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/sample"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:gravity="fill"/>
+        <TextView
+            android:id="@+id/fullNCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/company_name"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:gravity="fill"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/sample"/>
+        <TextView
+            android:id="@+id/fullNCollegeName"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/sample"
+            android:hint="@string/college_name"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="fill"
+            android:textColorHint="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/interested"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/sample"
+            android:text="@string/interested"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

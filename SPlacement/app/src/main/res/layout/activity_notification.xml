@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.splacement.NotificationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/addNotifyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="@string/notification_title"/>
+
+        <EditText
+            android:id="@+id/addNotifyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:ems="10"
+            android:hint="@string/notification_description"
+            android:inputType="textMultiLine" />
+        <EditText
+            android:id="@+id/addNotifyTime"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/time"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:inputType="time"
+            android:background="@color/white"/>
+        <EditText
+            android:id="@+id/addNotifyDate"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/date"
+            android:inputType="date"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@color/white"/>
+        <EditText
+            android:id="@+id/addNotifyCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/company_name"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@color/white"/>
+        <EditText
+            android:id="@+id/addNotifyCollegeName"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:ems="10"
+            android:hint="@string/college_name"
+            android:inputType="textMultiLine" />
+        <Button
+            android:id="@+id/putNotification"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/putnotification"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

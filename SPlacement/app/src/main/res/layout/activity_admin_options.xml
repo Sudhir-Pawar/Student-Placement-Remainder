@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.admin.splacement.AdminOptionsActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/adminNotification"
+            android:layout_width="150dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/Notification"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:layout_height="140dp"/>
+        <Button
+            android:id="@+id/adminEditNotification"
+            android:layout_width="150dp"
+            android:text="@string/EditNotification"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:layout_height="140dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/adminAddUser"
+            android:layout_width="150dp"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:text="@string/addUser"
+            android:layout_marginRight="25dp"
+            android:layout_height="140dp"/>
+        <Button
+            android:id="@+id/adminAddCompany"
+            android:layout_width="150dp"
+            android:text="@string/addCompany"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:layout_height="140dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/adminAddCollegeInfo"
+            android:layout_width="150dp"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:text="@string/addCollegeInfo"
+            android:layout_marginRight="25dp"
+            android:layout_height="140dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

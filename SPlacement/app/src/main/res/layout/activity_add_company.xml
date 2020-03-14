@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.splacement.AddCompany">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/selectlogo"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/selectlogo"
+                android:layout_height="60dp" />
+
+            <Button
+                android:id="@+id/upload"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/upload"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:hint="@string/companyName"
+            android:layout_height="70dp" />
+
+        <EditText
+            android:id="@+id/companyDescription"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:hint="@string/companyDescription"
+            android:layout_height="120dp" />
+        <EditText
+            android:id="@+id/currentRequirements"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:hint="@string/CurrentRequirements"
+            android:layout_height="120dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="@string/RecruitmentRecord"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/y2016"
+                android:text="@string/year2016"
+                android:layout_width="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                />
+            <EditText
+                android:id="@+id/sry2016"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:hint="@string/studentrecruited"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_marginLeft="40dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/y2017"
+                android:text="@string/year2017"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                />
+            <EditText
+                android:id="@+id/sry2017"
+                android:hint="@string/studentrecruited"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/y2018"
+                android:text="@string/year2018"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                />
+            <EditText
+                android:id="@+id/sry2018"
+                android:hint="@string/studentrecruited"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/y2019"
+                android:text="@string/year2019"
+                android:layout_width="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                />
+            <EditText
+                android:id="@+id/sry2019"
+                android:hint="@string/studentrecruited"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/cregister"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:layout_width="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/cregister"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277193290555",
+    "firebase_url": "https://splacement-606b2.firebaseio.com",
+    "project_id": "splacement-606b2",
+    "storage_bucket": "splacement-606b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277193290555:android:15e6a13f25d6448ab77d1e",
+        "android_client_info": {
+          "package_name": "com.example.admin.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277193290555-0ievlhh9bt2ct5tapa0knhku3ckooebg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.myapplication",
+            "certificate_hash": "638f417292db67ccac7b10301c0e61d8e5a3c198"
+          }
+        },
+        {
+          "client_id": "277193290555-laaojjcbt1848pkfg3ugi11k56qklc34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyXmyRzXSJEvNxnwU644qJk6v98rgrYME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277193290555-laaojjcbt1848pkfg3ugi11k56qklc34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

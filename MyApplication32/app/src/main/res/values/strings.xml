@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Placement</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">sign in</string>
+    <string name="title">title</string>
+    <string name="description">my description</string>
+    <string name="notification_title">notification title</string>
+    <string name="notification_description">notification </string>
+    <string name="date">date</string>
+    <string name="company_name">company name or company event</string>
+    <string name="college_name">college name</string>
+    <string name="time">time</string>
+    <string name="company_names">CompanyNames</string>
+    <string name="college">College</string>
+    <string name="poster">view poster</string>
+    <string name="use">use</string>
+    <string name="interested">Interested</string>
+
+
+</resources>
